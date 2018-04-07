@@ -44,6 +44,11 @@
     <Compile Include="Consent.cs" />
     <Compile Include="CookieService.cs" />
     <Compile Include="ICookieService.cs" />
+    <Compile Include="Localizations\Captions.Designer.cs">
+      <DependentUpon>Captions.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
     <Compile Include="Localizations\Captions.fr.Designer.cs">
       <DependentUpon>Captions.fr.resx</DependentUpon>
       <AutoGen>True</AutoGen>
@@ -54,10 +59,10 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
     </Compile>
-    <Compile Include="Localizations\Captions.Designer.cs">
+    <Compile Include="Localizations\Captions.en.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>Captions.resx</DependentUpon>
+      <DependentUpon>Captions.en.resx</DependentUpon>
     </Compile>
     <Compile Include="Localizations\Captions.de.Designer.cs">
       <DependentUpon>Captions.de.resx</DependentUpon>
@@ -77,6 +82,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Localizations\Captions.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Captions.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="Localizations\Captions.fr.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Captions.fr.Designer.cs</LastGenOutput>
@@ -89,9 +98,9 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Captions.de.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="Localizations\Captions.resx">
+    <EmbeddedResource Include="Localizations\Captions.en.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Captions.Designer.cs</LastGenOutput>
+      <LastGenOutput>Captions.en.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Localizations\Captions.hr-HR.resx">
       <Generator>ResXFileCodeGenerator</Generator>

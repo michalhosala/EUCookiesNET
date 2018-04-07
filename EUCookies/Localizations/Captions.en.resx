@@ -118,12 +118,12 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="LearnMore" xml:space="preserve">
-    <value>Zistiť viac</value>
+    <value>Learn more</value>
   </data>
   <data name="Ok" xml:space="preserve">
-    <value>Rozumiem</value>
+    <value>OK</value>
   </data>
   <data name="Text" xml:space="preserve">
-    <value>Webové stránky využívajú na zlepšovanie služieb súbory cookie. Používaním stránok vyjadrujete súhlas s ich použitím.</value>
+    <value>Cookies help us deliver our services. By using our services, you agree to our use of cookies.</value>
   </data>
 </root>
